@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .FooterBody{
+    width: 100%;
+   height: 50vh;
+   background-color:  rgb(164, 116, 85);
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+  }
+  .FooterWrapper{
+    width: 85%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+  }
+  .FooterHeader{
+    width: 100%;
+    height: 80%;
+    /* background-color: palevioletred; */
+    display: flex;
+   justify-content: space-between;
+  }
+  .FooterAddyDiv{
+    width: 33%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterAddy{
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FooterAddy p{
+    width: 75%;
+    font-size: 19px;
+    color: white;
+    margin-top: 8%;
+  }
+  .FooterRights{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .FooterRights p{
+    width: 75%;
+    font-size: 19px;
+    color: white;
+  }
+  .Demma{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .FooterCompanyDiv{
+    width: 40%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .FooterCompanyHeaderText{
+    width: 100%;
+    height: 40%;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FooterCompanyHeaderText h2{
+    font-size: 30px;
+    color: #fff;
+    /* color: #00B4D8; */
+  }
+  .FooterCompanyNav ul{
+    width: 100%;
+    height: 75%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .FooterCompanyNav{
+    width: 100%;
+    height: 75%;
+    /* background-color: goldenrod; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .FooterCompanyNav ul li{
+    cursor: pointer;
+    font-size: 19px;
+    color: white;
+    margin-left: 29%;
+  }
+  .FooterDown{
+    width: 100%;
+    height: 10%;
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterLine{
+    width: 100%;
+    height: 3px;
+    background: rgb(48, 199, 181);
+    border-radius: 2px;
+  }
+  .FooterCopyRight{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 428px){
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .FooterBody{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../../assets/footer_img2.png);
+    /* background: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+  }
+  
+  .FooterWrapper{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FooterHeader{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FooterLogoDiv{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* background: #000; */
+  }
+  
+  .FooterLogoImgDiv{
+    width: 100%;
+    height: 33%;
+  }
+  .FooterLogoImgDiv img{
+    width: 20%;
+    height: 100%;
+  }
+  
+  .FooterAddy{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .FooterAddy p{
+    width: 90%;
+    height: 70%;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .FooterRights{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .FooterRights p{
+    width: 90%;
+    height: 60%;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .Demma{
+    width: 100%;
+    height: 60%;
+    display: flex;
+  }
+  
+  .FooterCompanyDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .FooterCompanyHeaderText{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* align-items: center; */
+    /* background: #000; */
+  }
+  .FooterCompanyHeaderText h2{
+    font-size: 30px;
+    color: #00B4D8;
+  }
+  
+  .FooterCompanyNav{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+  }
+  .FooterCompanyNav ul{
+    width: 100%;
+    height: 80%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .FooterCompanyNav ul li{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+  }
+  .FooterCompanyNav ul li:hover{
+    cursor: pointer;
+    color: #00000059;
+    transition:0.5s ease-out;
+  }
+  
+  .FooterTagsDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: #000; */
+  }
+  
+  .FooterTagHeaderText{
+    width: 100%;
+    height: 20%;
+    display: flex;
+  justify-content: center;
+  }
+  .FooterTagHeaderText h2{
+    font-size: 30px;
+    color: #00B4D8;
+  }
+  
+  .TagsSocials{
+    width: 100%;
+    height: 80%;
+    display: flex;
+  }
+  
+  .TagSocialIconDiv{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .TagSocialIcon{
+    width: 30px;
+    height: 30px;
+    background: #00B4D8;
+  
+  }
+  
+  .TagSocialsText{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .FooterDown{
+    width: 100%;
+    height: 20%;
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .FooterLine{
+    width: 100%;
+    height: 3px;
+    background: #00B4D8;
+    border-radius: 2px;
+  }
+  
+  .FooterCopyRight{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  
+  }
+

@@ -1,0 +1,296 @@
+.About-us {
+    height: max-content;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.aboutus-wrappper {
+    height: max-content;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first-half {
+    height: 48%;
+    width: 100%;
+    /* background-color: rgb(13, 223, 13); */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.second-half {
+    height: 48%;
+    width: 100%;
+    /* background-color: rgb(200, 116, 228); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-half-image {
+    height: 100%;
+    width: 49%;
+    /* background-color: rgb(200, 116, 228); */
+}
+
+.first-half-text {
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(128, 122, 131); */
+    display: flex;
+    text-align: justify;
+    /* justify-content: center; */
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.first-half-image img {
+    width: 100%;
+    height:100%;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.first-half-header {
+    width: 100%;
+    height: 50%;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.first-half-content-text {
+    width: 100%;
+    height:100%;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second-half-text {
+    height: 100%;
+    width: 47%;
+    /* background-color: rgb(44, 16, 53); */
+    display: flex;
+    text-align: justify;
+    /* justify-content: center; */
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-half-image {
+    height: 100%;
+    width: 49%;
+}
+
+.second-half-image img {
+    width: 100%;
+    height:100%;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.second-half-text-header {
+    width: 100%;
+    height:100%;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.second-half-text-content {
+    color: #000;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    height:100%;
+    flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+
+    /* CSS styles for mobile devices */
+
+    .About-us {
+        height: max-content;
+        width: 100%;
+    }
+
+    .aboutus-wrappper {
+        height: max-content;
+        width: 90%;
+    }
+
+    .first-half {
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-half-image {
+        height: 50%;
+        width: 100%;
+        /* background-color: rgb(200, 116, 228); */
+    }
+
+         .first-half-image img {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .first-half-text {
+        height: 50%;
+        width: 100%;
+    }
+
+    .first-half-content-text {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .second-half {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-half-image {
+        height: 50%;
+        width: 100%;
+    }
+
+    .second-half-image img {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .second-half-text-header {
+        width: 100%;
+        height: 100px;
+        text-align: left;
+    }
+
+    .second-half-text-content {
+        width: 100%;
+        height: max-content;
+    }
+
+    .second-half-text {
+        height: 50%;
+        width: 100%;
+           }
+
+}
+
+/* For devices with a width between 768px and 991px (e.g., tablets in portrait mode) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS styles for tablets */
+    .About-us {
+        height: max-content;
+        width: 100%;
+    }
+
+    .aboutus-wrappper {
+        height: max-content;
+        width: 90%;
+    }
+
+    .first-half {
+        height: max-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-half-image {
+        height: 50%;
+        width: 100%;
+        /* background-color: rgb(200, 116, 228); */
+    }
+
+         .first-half-image img {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .first-half-text {
+        height: 50%;
+        width: 100%;
+    }
+
+    .first-half-content-text {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .second-half {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-half-image {
+        height: 50%;
+        width: 100%;
+    }
+
+    .second-half-image img {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 8px;
+    }
+
+    .second-half-text-header {
+        width: 100%;
+        height: 100px;
+        text-align: left;
+    }
+
+    .second-half-text-content {
+        width: 100%;
+        height: max-content;
+    }
+
+    .second-half-text {
+        height: 50%;
+        width: 100%;
+           }
+}

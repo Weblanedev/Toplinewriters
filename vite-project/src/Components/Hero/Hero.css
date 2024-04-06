@@ -1,0 +1,200 @@
+.QualityContentScale {
+    width: 100%;
+    height: 100vh;
+    /* background-color: grey; */
+    background-image: url(https://www.toplinewriters.ng/wp-content/uploads/2024/03/thought-catalog-505eectW54k-unsplash-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .QualityContentScaleWrap {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    /* background-color: orchid; */
+  }
+  .Textdiv {
+    width: 50%;
+    height: 78%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Textdivwrap {
+    width: 100%;
+    height: 80%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 25px;
+  }
+  .Textdivwrap h1 {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: raleway poppins;
+    color: white;
+  }
+  
+  .animate-charcter{
+      text-transform: uppercase;
+     background-image: linear-gradient(
+       -225deg,
+       #231557 0%,
+       #44107a 29%,
+       rgb(164, 116, 85) 67%,
+       #fff800 100%
+     );
+     background-size: auto auto;
+     background-clip: border-box;
+     background-size: 200% auto;
+     color: #fff;
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 2s linear infinite;
+     display: inline-block;
+     font-size: 30px;
+    }
+    
+    @keyframes textclip {
+     to {
+       background-position: 200% center;
+     }
+    }
+  .Textdivwrap h2 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: raleway poppins;
+    color: white;
+  }
+  .HirebtnNow {
+    width: 190px;
+    height: 12%;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 4%;
+    padding: 10px;
+  }
+  .HirebtnNow:hover {
+    background-color: rgb(3, 18, 3);
+    color: white;
+  }
+  .RightImageGuy {
+    width: 50%;
+    height: 98%;
+    /* background-color: green; */
+    display: flex;
+  
+    align-items: flex-end;
+  }
+  .RightImageGuywrap {
+    width: 100%;
+    height: 90%;
+    /* background-color: blue; */
+    opacity: inherit;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .RightImageGuywrap img {
+    width: 100%;
+    height: 100%;
+    opacity: calc(0.5);
+  
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 428px) {
+    .QualityContentScale {
+      height: auto;
+      padding: 20px 0; 
+      background-position: top; 
+    }
+  
+    .QualityContentScaleWrap {
+      width: 100%;
+      height: auto;
+      padding: 0 10px; 
+    }
+  
+    .Textdiv {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .Textdivwrap {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      padding: 0 10px; 
+    }
+  
+    .Textdivwrap h1 {
+      font-size: 28px; 
+      font-weight: 700;
+      text-align: center;
+      margin: 0; 
+    }
+  
+    .Textdivwrap h2 {
+      font-size: 16px; 
+      font-weight: 500;
+      text-align: center;
+      margin: 0; 
+    }
+  
+    .HirebtnNow {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 14px; 
+      text-align: center;
+    }
+  
+    .RightImageGuy {
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px; 
+    }
+  
+    .RightImageGuywrap {
+      width: 100%;
+      height: auto;
+    }
+  
+    .RightImageGuywrap img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  
